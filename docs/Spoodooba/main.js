@@ -134,7 +134,6 @@ let eBullets;
 function update() {
   // the init function running at startup
     if (!ticks) {
-      waveCount = 0;
       stars = times(20, () => {
         const posX = rnd (0, G.WIDTH);
         const posY = rnd (0, G.HEIGHT);
