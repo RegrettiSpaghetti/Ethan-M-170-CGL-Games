@@ -108,12 +108,12 @@ let fBullets;
 let enemies;
 
 /**
- * @type { number}
+ * @type { number }
  */
 let currentEnemySpeed;
 
 /**
- * @type { number}
+ * @type { number }
  */
  let waveCount;
 
