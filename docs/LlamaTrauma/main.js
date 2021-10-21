@@ -257,9 +257,8 @@ function update() {
     rect(b.pos, 5, -b.height);
   });
 
-  text(player.ammoCount.toString(), 3, 10);
-  text(player.firingCooldown.toString(), 3, 20);
-  text(player.reloadingCooldown.toString(), 3, 30);
+  color("light_cyan");
+  text("Ammo:" + player.ammoCount.toString(), 3, 10);
 
   //update and draw player
   //reduce cooldown for shots and reloads
